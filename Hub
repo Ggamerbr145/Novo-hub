@@ -23,8 +23,17 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Button!",
 	Callback = function()
-      		eu.CFrame = CFrame.new(-5.1341, 2102.64, -0.0621045) 
+      		eu.CFrame = CFrame.new(-101, 23, -98)
+      wait(0.1) 
+      eu.CFrame = CFrame.new(151, -22, 151)
+      wait(0.1) 
+      eu.CFrame = CFrame.new(160, 272, 30)
   	end    
+})
+
+OrionLib:Init()
+
+
 })
 
 OrionLib:Init()
